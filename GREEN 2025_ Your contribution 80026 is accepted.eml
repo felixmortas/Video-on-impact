@@ -1,0 +1,193 @@
+Received: from GVXP191MB2613.EURP191.PROD.OUTLOOK.COM (2603:10a6:150:1e6::6)
+ by VI1P191MB0381.EURP191.PROD.OUTLOOK.COM with HTTPS; Wed, 27 Aug 2025
+ 02:11:16 +0000
+Received: from CWLP265CA0327.GBRP265.PROD.OUTLOOK.COM (2603:10a6:401:57::27)
+ by GVXP191MB2613.EURP191.PROD.OUTLOOK.COM (2603:10a6:150:1e6::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.9052.21; Wed, 27 Aug
+ 2025 02:11:14 +0000
+Received: from AMS0EPF000001AD.eurprd05.prod.outlook.com
+ (2603:10a6:401:57:cafe::6f) by CWLP265CA0327.outlook.office365.com
+ (2603:10a6:401:57::27) with Microsoft SMTP Server (version=TLS1_3,
+ cipher=TLS_AES_256_GCM_SHA384) id 15.20.9052.21 via Frontend Transport; Wed,
+ 27 Aug 2025 02:11:13 +0000
+Authentication-Results: spf=pass (sender IP is 72.52.166.97)
+ smtp.mailfrom=iariasubmit.org; dkim=pass (signature was verified)
+ header.d=iariasubmit.org;dmarc=bestguesspass action=none
+ header.from=iariasubmit.org;compauth=pass reason=109
+Received-SPF: Pass (protection.outlook.com: domain of iariasubmit.org
+ designates 72.52.166.97 as permitted sender) receiver=protection.outlook.com;
+ client-ip=72.52.166.97; helo=host.thinkmind.org; pr=C
+Received: from host.thinkmind.org (72.52.166.97) by
+ AMS0EPF000001AD.mail.protection.outlook.com (10.167.16.153) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.9073.11 via Frontend Transport; Wed, 27 Aug 2025 02:11:12 +0000
+X-IncomingTopHeaderMarker: OriginalChecksum:AE358754BCE0454B1BF31CF84812DC6FC02EA35E540561A26E8F05944EB9FD22;UpperCasedChecksum:F2D6C9D5E69BA2ECD35473D7A7A1CB73598B417659BDF69BB3ADCF561CE39ABE;SizeAsReceived:2372;Count:25
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=iariasubmit.org; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:Reply-To:Cc:From:Date:Subject:To:Sender:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=vVhB8lbQf05Hms8J+9YPuBm0pKTWFSvU+OMvIDa050Q=; b=ATu0rGJ1jhJVQNbl5wLi6MmuKm
+	RlyE4kF2ozhQH/vJdUC4/bUjw90gzj+Wzy0wvefCf3bP/3njLcs5/llv8sBX6w0s2RTx1fdXJHeHV
+	N6Eji+zpl9x0w1cLeP1JEWy1q7sxR3HuooObxrlK+qjQoo3I0v+2BeXAC98jrUGrkArPivw494bFb
+	WWDyRtVEXN7kJ+8+FuOsb75IefCF5GPbOkbpcB1sf+fyFo1JtTvED5M6gwThM0VLbiNxvfgW6qyZd
+	0GMGS9bEiQEUfou7n3aflulyoVX/gSfmVuGMG5ZvU7ldQOAu81vQp8RWuOEaUvu/6aQo0jvGA86xF
+	wScUbahw==;
+Received: from iariasub by host.thinkmind.org with local (Exim 4.96.2)
+	(envelope-from <confirmation@iariasubmit.org>)
+	id 1ur5d1-0000yE-0F;
+	Tue, 26 Aug 2025 22:11:11 -0400
+To: felix.mortas@hotmail.fr
+Subject: GREEN 2025: Your contribution 80026 is accepted
+X-PHP-Script: www.iariasubmit.org/conferences/admin/contributions/contributionNotifyPromising.php for 100.14.239.180
+X-PHP-Originating-Script: 1003:PHPMailer.php
+Date: Wed, 27 Aug 2025 02:11:11 +0000
+From: IARIA Confirmation <confirmation@iariasubmit.org>
+Cc: confirmation.log@iariasubmit.org
+Reply-To: steve@iaria.org
+Message-ID: <bhWDnYOgoppDC8b6uCzdTi8OtdThe0miwIdu5BaHLE@www.iariasubmit.org>
+X-Mailer: PHPMailer 6.3.0 (https://github.com/PHPMailer/PHPMailer)
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse: This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - host.thinkmind.org
+X-AntiAbuse: Original Domain - hotmail.fr
+X-AntiAbuse: Originator/Caller UID/GID - [1003 997] / [47 12]
+X-AntiAbuse: Sender Address Domain - iariasubmit.org
+X-Get-Message-Sender-Via: host.thinkmind.org: authenticated_id: iariasub/from_h
+X-Authenticated-Sender: host.thinkmind.org: confirmation@iariasubmit.org
+X-Source:
+X-Source-Args: /opt/cpanel/ea-php74/root/usr/bin/php-cgi /home/iariasub/public_html/conferences/admin/contributions/contributionNotifyPromising.php 
+X-Source-Dir: iariasubmit.org:/public_html/conferences/admin/contributions
+X-IncomingHeaderCount: 25
+Return-Path: confirmation@iariasubmit.org
+X-MS-Exchange-Organization-ExpirationStartTime: 27 Aug 2025 02:11:13.1579
+ (UTC)
+X-MS-Exchange-Organization-ExpirationStartTimeReason: OriginalSubmit
+X-MS-Exchange-Organization-ExpirationInterval: 1:00:00:00.0000000
+X-MS-Exchange-Organization-ExpirationIntervalReason: OriginalSubmit
+X-MS-Exchange-Organization-Network-Message-Id: 0cb512fc-a03d-4d22-4fd0-08dde50eff46
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa:0
+X-MS-Exchange-Organization-MessageDirectionality: Incoming
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: AMS0EPF000001AD:EE_|GVXP191MB2613:EE_|VI1P191MB0381:EE_
+X-MS-Exchange-Organization-AuthSource: AMS0EPF000001AD.eurprd05.prod.outlook.com
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-UserLastLogonTime: 8/26/2025 11:33:42 PM
+X-MS-Office365-Filtering-Correlation-Id: 0cb512fc-a03d-4d22-4fd0-08dde50eff46
+X-MS-Exchange-EOPDirect: true
+X-Sender-IP: 72.52.166.97
+X-SID-PRA: CONFIRMATION@IARIASUBMIT.ORG
+X-SID-Result: PASS
+X-MS-Exchange-Organization-SCL: 1
+X-Microsoft-Antispam: BCL:0;ARA:1444111002|23070799003|22070799003|461199028|16125499006|440099028|3412199025|1370799030|1360799030|1380799030;
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 27 Aug 2025 02:11:12.9131
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id: 0cb512fc-a03d-4d22-4fd0-08dde50eff46
+X-MS-Exchange-CrossTenant-Id: 84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa
+X-MS-Exchange-CrossTenant-AuthSource: AMS0EPF000001AD.eurprd05.prod.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-CrossTenant-RMS-PersistedConsumerOrg: 00000000-0000-0000-0000-000000000000
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: GVXP191MB2613
+X-MS-Exchange-Transport-EndToEndLatency: 00:00:03.1381986
+X-MS-Exchange-Processed-By-BccFoldering: 15.20.9052.000
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;ex:0;auth:1;dest:I;ENG:(5062000311)(920221119095)(90000117)(920221120095)(90010023)(91010020)(91040095)(9050020)(9100341)(944500132)(2008001181)(4810010)(4910033)(9575002)(10195002)(9320005)(120001);
+X-Message-Delivery: Vj0xLjE7dXM9MDtsPTA7YT0wO0Q9MTtHRD0xO1NDTD0z
+X-Microsoft-Antispam-Message-Info:
+	=?utf-8?B?Mm5JZXdhM21pamt2MDFtWUVVMEEwTzV4SUpkNVBRaDJMcVhmbndoSklzS3VO?=
+ =?utf-8?B?L2U0Wk5ocjFWaThWM3V5djhEOU5OUXBaUHYrTTQyT0MzeGNaM1NpTVVySlJQ?=
+ =?utf-8?B?bkpxMGg2OUFQcVRGNVh2SXE4NzRmQy9qSFBOUStsNitYNzB3aWU2NTFJQXNH?=
+ =?utf-8?B?Ym1UWnYrbDh6Nk9NdmQyQ05FUXZaZVBsTXYxak41RVVmSWx6T1FSbnVONGpS?=
+ =?utf-8?B?OXJ1SzZjdi9nS0FiaG95UVo3YlZyNi9ZZ1YxczNIS3JxRkU2T3dLUno1UGwr?=
+ =?utf-8?B?aXdpbnBiZEpaS3dQbXZ5ejZpbWNqY0h3SER3anBPSUUxQzZDbVZ2cE1veGl0?=
+ =?utf-8?B?N3V2d1lCM0FNdzVOODB2bVZNYitKTDNWTFQ4OTg1WGFwem14MkZlVGp3c2lJ?=
+ =?utf-8?B?eFQ2RkVJYTErMnI3YVkvMlIxUWg5Z2VsT2FBbCt4dkowaCtnZ3lHelNBYVJO?=
+ =?utf-8?B?Qi96NjNQb1htenJtT05RZ3FVR2o1VE51RW5hSHpTUWc5Mjg3ektLNlZ6eDZ1?=
+ =?utf-8?B?UzN1UUhSMWlZNTEzTVdNQ0NsYURUYitqbEw1TGdWZDBMSkdtRUMvOE9qNXAz?=
+ =?utf-8?B?d0dYSzErM3NGZWNLR1hYZG5PZkVQcG9BbGZtN2tNc2RIOXhrSzVZYXFLaFNw?=
+ =?utf-8?B?NVU0YkdOeFFuckYrSzBENlgrQ3VRN1QrT1FVQW5OZU50K2YwdU0rZ3ZPUzB1?=
+ =?utf-8?B?TmJnQkgrYnU1czJhV0p6ekNCMEJ5RmYxRTNqTlBYZ2lRWTM5ZEF1S0FEbTdX?=
+ =?utf-8?B?N1VVZmtpVW16RTNiOXdNZG5MRzhQV1Nacm5RSEJDdWRuV3gwaHp3dlRYM0o4?=
+ =?utf-8?B?clBFL1VLZE1LRnlqZ0FuN3N1SWxjMVF6YVJLRDZqQW1tcGFMdnEvbEJKWVdU?=
+ =?utf-8?B?blBMU3lJTm9pK1Z0emY2OSt2ZHdTeU1IWE40Z0c2WE10VUFHQzBhYmFGNnBo?=
+ =?utf-8?B?NEFWZ2FCV0gwZUVyN25EemZjU2Y3dGN4WGZHaWRNVkZnU041M2d1bVEvd3ZB?=
+ =?utf-8?B?dm4xeXRnRUlsdmVRYVhHUDlxRHF5M2l2enZKTEpxbE94aTdpM1l0dDVCRXds?=
+ =?utf-8?B?KzBkNEhKNG5COEFVMmxyVE8vdmdBd3BvV25KK1lnMDdMRjdGSzJpUU02a1g3?=
+ =?utf-8?B?VllMbzNLOVQ1WGthRlVBekx4YTU1R1QyT1pueDZxbVZlLzBYUVVEM1ZtdkFu?=
+ =?utf-8?B?WEN4MjRscWFBMUs1bjZwaDFFNmorUm82MHpuM3B5ajJXaDBTZXlOTHZNcTBO?=
+ =?utf-8?B?WnRTaGhGaTVxcmZqWStWdTN4aTVMNFd5aXJ1N0JNQk9xVDZDeENiWFo5QjhJ?=
+ =?utf-8?B?MVRFS1NtbVRkZC9OWEY4NEMyQWNsTjVGUFJIUVFsY0xwdjNzWElVLzFUMnVv?=
+ =?utf-8?B?M3c2QVVwOGZNWWY0eWNLdGp5M1Blakgxa3RqSWpFZTU1cmtuZHdPQ2UyLzlv?=
+ =?utf-8?B?RklqS04zL2xDYXdBa0s2VCtHNkg1N1gvQkZzQVpqYzdvUDVLdm44YzdleWNM?=
+ =?utf-8?B?TEc1Zk9mQlRyMHljUHVuQUlDSkNaeG1jM1N0V1Q0b0diRDNGTVlOWDF5dHBo?=
+ =?utf-8?B?ZkRaZnNzbzVvU0RtWFBSVkJMS1QvSnVRYzY0MHdoa3Y5VW43L3QyQUlhSFNq?=
+ =?utf-8?B?SU1qdytoTU9XK1RTYTlidnpwTEJ4QkV0Q1MxQlk3SktHOTluWnJFYnluL21h?=
+ =?utf-8?B?S3ZBN2VCeHJ2WUN4UmM5YVBxRWZjUHVUcEl3b2xIRlJqdGZwS05GUjV4S3VQ?=
+ =?utf-8?B?K2xoVXphRnhUa0pRSGJwWk52WTZuRHNXNkY2dmluYjB6MW11TzlMK3lGUkZs?=
+ =?utf-8?B?NkFzY0U3bVpYNzE5SitpSHVpQll0VkRmbkVCT2xLbXVhbkFKUXovUnZZWVZS?=
+ =?utf-8?B?UytkT25qTDhlSFFlVkZ5RG1IcWxkcmgwMzBpWW5NNzZGSVBRUTdEa1h3SGp5?=
+ =?utf-8?B?WCt0Mm9hTmRoY1VWZmppUE5GWm51MExqMmhqYWw0TzlQb3drODlRNXlZRHpY?=
+ =?utf-8?B?ZmtqWWRiSkNLbGZGQ0ozenVUdWIxMTVZYzdaNnBuRUtrcXNXRjhqSFdOMTJY?=
+ =?utf-8?B?L0NzZDRDL2phVEF5K3pMOGJxOTBqMWt4c3lLc2x1QXV2bUF6NDk4RDd1Zng0?=
+ =?utf-8?Q?mvUaxv9GDp1lIprpSwvcpMLPJ?=
+MIME-Version: 1.0
+
+Dear Félix Mortas,
+
+Congratulations! Your contribution 80026 to GREEN 2025 titled "Assessing the Carbon Footprint of Virtual Meetings: A Quantitative Analysis of Camera Usage"  is accepted as 2. short paper (work in progress) [in the proceedings, digital library] / academic research.
+
+Note that for 2025, all events will be held in a hybrid mode with five options: on site or virtual choices (live, prerecorded videos, voiced presentation slides, and .pdf slides).
+
+We hope for better times allowing us to return to the traditional on site scientific events. However, we are ready to adapt any which way the conditions dictate.
+
+There are some fixable issues that must be addressed before the article is ready for publication:
+
+- Scientific and technical;
+
+- English & punctuation,  and
+
+- Sections and presentation flow.
+
+To proceed further, please register the paper and pay the registration. IARIA will allocate technical and linguistic resources to assist with the fixing process. The comments received from the reviewers will be the starting point for the interaction with the IARIA representative.
+
+The final revision and fixing process will start immediately after the registration transaction is successfully processed.
+
+ Upon receipt of this notification, please proceed to complete your registration:
+
+- go to the "Registration form" on the conference site: https://www.iaria.org/conferences2025/RegistrationGREEN25.html
+
+- fill it out with all required information including the payment information
+
+- submit it
+
+ Once the registration is successfully processed, somebody from IARIA will contact you to finalize the camera-ready based on reviewers' comments.
+
+
+--------- Preparing the camera-ready process ---- 
+
+1. Registration processed and IARIA will contact you about your article
+
+2. Work on the first round of comments sent after registration (additional rounds will come). Please consider the enforced action for English/punctuation/figures; see:  the editorial guide posted at http://www.iaria.org/editorialrules.html
+
+3. Update validation and additional comments.
+
+
+If you have any questions, contact directly steve@iaria.org
+
+The timeline of this entire process would be:
+
+1. Registration successfully completed by September 9, 2025
+
+2. You acknowledge your availability to work with someone from IARIA to finalize the paper at latest on September 21, 2025
+
+Note that this work may extend beyond the posted camera ready deadline. Arrangements have been made with the publisher in order to accommodate this. Going beyond the official deadline does not jeopardize the publication of the article.
+
+Note that sometimes there are several articles needing assistance, so a reply to your email may be delayed.
+
+On behalf of the organizing committee
+
